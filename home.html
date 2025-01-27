@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Teacher Empowerment and Performance Evaluation System</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* General styling */
+        img{
+      left: 0%;
+      top: 0%;
+      margin-left:0%;
+      position: absolute;
+      margin-top: 9%;
+}
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 1px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+        .logincredentials {
+            position: absolute;
+            top: 60%;
+            left: 60%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            left: 70%;
+            top: 40%;
+            margin-left: 8%;
+    position: absolute;
+    margin-top: 10%;
+        }
+        .logincredentials input[type="text"],
+        .logincredentials input[type="password"] {
+          
+            width:60%;
+            height: 60%;
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+    
+    
+        }
+        .logincredentials button {
+           background-color:blue;
+        color:white;
+        width: 115px;
+        height:36px;
+        font-size:18px;
+        border-style: none;
+        cursor:pointer;
+        margin-right : 8px;
+        }
+        .logincredentials button:hover {
+             opacity:0.5;
+        transition:opacity 0.15s;
+        }
+        .logincredentials button:active{
+        opacity:0.5;
+        
+    </style>
+</head>
+<img src="teachers.jpg" alt="Trulli" width=100% height=100%>
+<body>
+
+    <header>
+        <h1>Teacher Empowerment and Performance Evaluation System</h1>
+        <nav>
+            <ul>
+                <li><a href="home1.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <form class="logincredentials" action="login" method="get">
+        <label for="UserName">UserName:</label>
+        <input type="text" id="UserName" name="UserName" placeholder="Enter username" title="Please enter Teacher username" required="">
+        <label for="Password">Password:</label>
+        <input type="password" id="Password" name="Password" placeholder="Enter password" title="Please enter Teacher Password" required="">
+        <button type="submit">Login</button>
+        <a href="register.html" target="_blank">Register</a>
+    </form>
+<input type="submit" value="login"/>  
+</body>
+</html>
+
+
